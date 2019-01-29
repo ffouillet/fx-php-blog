@@ -1,0 +1,33 @@
+{% extends 'layouts/front.html.twig' %}
+
+{% block title %} Accueil {{ parent() }} {% endblock %}
+{% block content %}
+    <div class="about-me">
+        <h1>A propos de moi</h1>
+        <div class="photo-and-links">
+            <div class="site-photo">
+                <img src="assets/img/felix-fouillet.jpg" alt="Félix Fouillet - Developpeur PHP Symfony"/>
+            </div>
+            <div class="links">
+                <a href="http://www.ffouillet.fr/assets/cv-felix-fouillet-developpeur-web-php-symfony.pdf" target="_blank">
+                    Télécharger mon CV
+                </a>
+                <a href="https://github.com/ffouillet" target="_blank">Github</a>
+                <a href="https://twitter.com/ffouillet" target="_blank">Twitter</a>
+                <a href="/contact">Me contacter</a>
+            </div>
+        </div>
+
+
+        <p>
+            Bonjour, je m'apelle <strong>Félix Fouillet</strong>,
+            j'ai 27 ans et je suis <strong>développeur PHP Symfony</strong> basé à Chambéry, en Savoie.
+        </p>
+        <p>
+            J'ai commencé le développement web en 2012 en créant un jeu vidéo en ligne de A à Z.
+            L'informatique est ma passion depuis toujours et c'est en réalisant mon premier projet que j'ai pris goût à la programmation.
+            Depuis, j'ai pu réaliser plusieurs sites et applications web visibles dans mon <a href="http://www.ffouillet.fr/#portfolio" target="_blank">portfolio</a>.
+        </p>
+    </div>
+
+{% endblock %}
