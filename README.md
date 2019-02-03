@@ -1,5 +1,7 @@
 ## PHP MicroFramework + Small Blog
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/96d66d84f15a43699a34ae52510852bb)](https://www.codacy.com/app/ffouillet/fx-php-blog?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ffouillet/fx-php-blog&amp;utm_campaign=Badge_Grade)
+
 A simple blog powered by a microframework done from scratch (except for templatong).
 The microframework is strongly inspired by Symfony.    
 Starting file is index.php in public directory.
