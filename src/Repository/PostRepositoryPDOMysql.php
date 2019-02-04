@@ -127,7 +127,7 @@ VALUES (:title, :heading, :content, :createdAt, :updatedAt, :authorId)";
             $stmt->bindParam('postId', $postId, \PDO::PARAM_INT);
         } else {
             $authorId = $post->getAuthorId();
-            $stmt->bindParam('author_id', $authorId, \PDO::PARAM_INT);
+            $stmt->bindParam('authorId', $authorId, \PDO::PARAM_INT);
             $stmt->bindParam('createdAt', $createdAt, \PDO::PARAM_STR);
             $updatedAt = new \DateTime();
             $updatedAt = $updatedAt->format('Y-m-d H:i:s');
